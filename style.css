@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+
+}
+body,html{
+    width:100vw ;
+    height: 100vh;
+    background-color:white;
+
+
+}
+.container{
+    
+/* overflow: hidden; */
+}
+
+h5{
+    color: rgb(63, 4, 63);
+}
+.title{
+    text-align: center;
+    margin: auto;
+    padding: 5px 11px 3px 11px;
+    position: relative;
+    font-size: 12px;
+    background-color: rgb(231, 30, 231);
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+}
+.paragraph{
+    position: relative;
+    left:20px;
+    right: 20px;
+
+right: 20px;
+    border-radius: 5px;
+    text-align: center;
+  text-align: justify;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px dotted rgb(231, 30, 231) ;
+    
+}
+.team-title{
+    
+    font-style: normal;
+    padding: 10px;
+   
+text-align: center;
+font-size: large;
+
+
+
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  border-radius: 50%;
+/* overflow: visible; */
+    gap: 10px;
+
+}
+.card{
+    border-radius: 50%;
+}
+
+/* img{
+    border-radius: 50%;
+} */
+.cards .card img{
+    /* overflow: visible; */
+    border-radius: 50%;
+
+}
